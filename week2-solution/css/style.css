@@ -1,0 +1,124 @@
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	text-align: center;
+	color: brown;
+}
+.frist{
+
+	border:1px solid black;
+	background-color: #A52A2A;
+	margin: 15px;
+	margin-top: 40px;
+	color: white;
+	padding: 20px;
+	position: relative;
+}
+.second{
+
+	border:1px solid black;
+	background-color: #A52A2A;
+	margin: 15px;
+	margin-top: 40px ;
+
+	color: white;
+	padding: 23px;
+	position: relative;
+}
+.third{
+
+	border:1px solid black;
+	background-color: #A52A2A;
+	margin: 15px;
+	margin-top: 40px;
+	color: white;
+	padding: 20px;
+	position: relative;
+}
+
+p{
+	border: 1px solid black;
+	width: 100px;
+	padding: 0px 10px 0px 20px;
+	margin-bottom: 20px;
+	font-size: 1em;
+}
+#p1{
+	background-color: pink;
+	font-family: monospace;
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top:  0px;
+	right: 0px;
+}
+#p2{
+	background-color: red;
+	font-weight: bold;
+	font-family: monospace;
+	color: white;
+	position: absolute;
+	top:  0px;
+	right:   0px;
+}
+#p3{
+	background-color: orange;
+	font-weight: bold;
+	font-family: monospace;
+	color: black;
+	position: absolute;
+	top:  0px;
+	right:   0px;
+}
+
+}
+.row{
+	width: 100%;
+}
+
+@media (min-width: 992px){
+	.frist, .second, .third {
+		float: left;
+	}
+	.frist{
+		width: 30.3%;
+	}
+	.second{
+		width: 30.3%;
+	}
+	.third{
+		width: 30.3%;
+	}
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.frist, .second, .third{
+		float: left;
+	}
+	.frist{
+		width: 42%;
+	}
+	.second{
+		width: 42%;
+	}
+	
+}
+@media (max-width: 767px){
+	.frist, .second, .third {
+		
+	}
+	.frist{
+		width: 95%;
+	}
+	.second{
+		width: 95%;
+	}
+	.third{
+		width: 95%;
+	}
+}
